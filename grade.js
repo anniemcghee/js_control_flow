@@ -20,6 +20,30 @@ else {
 	console.log("You got an F!");
 }
 
-/* if/else if/else loops are my shit. 
+/* 
 I did start this problem going from 0 - 100, but it finally worked when I got some advice to go from 100 to 0. 
 Also, my semicolons were wack and gave me some syntax errors/*
+
+random var grade = Math.round(Math.random()*100); --use to randomize!
+
+switch(compares this) - like switch (true) or switch(grade)
+case (to that)
+
+var message = " ";
+
+switch(grade) {
+	case 'A':
+		message = 'You Rock!'
+		break;
+	case 'B':
+		message = 'Not bad!'
+		break;
+	case 'C':
+		message = 'Yikes!'
+	case 'D':
+		message = 'Yikes!'
+		break;
+	default:
+		message = 'Try another career.'
+		break;
+}
